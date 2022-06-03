@@ -110,6 +110,16 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/contactPage.js":
+/*!****************************!*\
+  !*** ./src/contactPage.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ contactComponent)\n/* harmony export */ });\nfunction contactComponent() {\n    const contentElement = document.getElementById('content');\n\n    const contactHeader = document.createElement('h2');\n    contactHeader.textContent = 'Contact';\n\n    const phoneInfo = document.createElement('div');\n    phoneInfo.textContent = 'Phone: 123-456-7890';\n\n    const emailInfo = document.createElement('div');\n    emailInfo.textContent = 'Email: info@internationhouseofdumplings.com';   \n\n    contentElement.append(contactHeader, phoneInfo, emailInfo);\n\n    return contentElement;\n}\n\n//# sourceURL=webpack://restaurant-page/./src/contactPage.js?");
+
+/***/ }),
+
 /***/ "./src/homePage.js":
 /*!*************************!*\
   !*** ./src/homePage.js ***!
@@ -126,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _homePage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homePage.js */ \"./src/homePage.js\");\n/* harmony import */ var _menuPage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menuPage.js */ \"./src/menuPage.js\");\n\n\n\n\ndocument.addEventListener('DOMContentLoaded', () => {\n    // homePageComponent();\n    (0,_menuPage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n})\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _homePage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homePage.js */ \"./src/homePage.js\");\n/* harmony import */ var _menuPage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menuPage.js */ \"./src/menuPage.js\");\n/* harmony import */ var _contactPage_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./contactPage.js */ \"./src/contactPage.js\");\n\n\n\n\n\ndocument.addEventListener('DOMContentLoaded', () => {\n    // homePageComponent();\n    // menuComponent();\n    (0,_contactPage_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n})\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
 
 /***/ }),
 
