@@ -1,4 +1,8 @@
-import homePageComponent from "./homePage.js";
 import './style.css';
+import homePageComponent from './homePage.js';
+import menuComponent from './menuPage.js'
 
-homePageComponent();
+document.addEventListener('DOMContentLoaded', () => {
+    // homePageComponent();
+    menuComponent();
+})

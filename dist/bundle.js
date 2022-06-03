@@ -126,7 +126,47 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _homePage_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./homePage.js */ \"./src/homePage.js\");\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n\n\n\n(0,_homePage_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _homePage_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./homePage.js */ \"./src/homePage.js\");\n/* harmony import */ var _menuPage_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menuPage.js */ \"./src/menuPage.js\");\n\n\n\n\ndocument.addEventListener('DOMContentLoaded', () => {\n    // homePageComponent();\n    (0,_menuPage_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n})\n\n//# sourceURL=webpack://restaurant-page/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/menuPage.js":
+/*!*************************!*\
+  !*** ./src/menuPage.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ menuComponent)\n/* harmony export */ });\n/* harmony import */ var _dimsum_pork_dumplings_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dimsum-pork-dumplings.jpg */ \"./src/dimsum-pork-dumplings.jpg\");\n/* harmony import */ var _gyoza_fried_dumplings_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./gyoza-fried-dumplings.jpg */ \"./src/gyoza-fried-dumplings.jpg\");\n/* harmony import */ var _pierogis_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pierogis.jpg */ \"./src/pierogis.jpg\");\n/* harmony import */ var _ravioli_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ravioli.jpg */ \"./src/ravioli.jpg\");\n/* harmony import */ var _apricot_dumplings_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./apricot-dumplings.jpg */ \"./src/apricot-dumplings.jpg\");\n\n\n\n\n\n\nfunction menuComponent() {\n    const contentElement = document.getElementById('content');\n    const menuItems = [\n        {\"name\": \"Dim Sum Port Dumplings\", \"image\": _dimsum_pork_dumplings_jpg__WEBPACK_IMPORTED_MODULE_0__},\n        {\"name\": \"Gyoza Fried Dumplings\", \"image\": _gyoza_fried_dumplings_jpg__WEBPACK_IMPORTED_MODULE_1__},\n        {\"name\": \"Pierogis\", \"image\": _pierogis_jpg__WEBPACK_IMPORTED_MODULE_2__},\n        {\"name\": \"Ravioli\", \"image\": _ravioli_jpg__WEBPACK_IMPORTED_MODULE_3__},\n        {\"name\": \"Apricot Dessert Dumplings\", \"image\": _apricot_dumplings_jpg__WEBPACK_IMPORTED_MODULE_4__}\n    ]\n\n    for (let item of menuItems) {\n        console.log(item.name, item.image);\n\n        let itemDiv = document.createElement('div');\n\n        let itemHeader = document.createElement('h2');\n        itemHeader.textContent = item.name;\n\n        let itemImage = new Image();\n        itemImage.src = item.image;\n\n        itemDiv.append(itemHeader, itemImage);\n        contentElement.append(itemDiv);\n    }\n\n    return contentElement;\n}\n\n//# sourceURL=webpack://restaurant-page/./src/menuPage.js?");
+
+/***/ }),
+
+/***/ "./src/apricot-dumplings.jpg":
+/*!***********************************!*\
+  !*** ./src/apricot-dumplings.jpg ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a10dafc2682b5458bbd2.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/apricot-dumplings.jpg?");
+
+/***/ }),
+
+/***/ "./src/dimsum-pork-dumplings.jpg":
+/*!***************************************!*\
+  !*** ./src/dimsum-pork-dumplings.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c1d09b89bf5208ce56c5.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/dimsum-pork-dumplings.jpg?");
+
+/***/ }),
+
+/***/ "./src/gyoza-fried-dumplings.jpg":
+/*!***************************************!*\
+  !*** ./src/gyoza-fried-dumplings.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"d32e41f87816ffc34606.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/gyoza-fried-dumplings.jpg?");
 
 /***/ }),
 
@@ -137,6 +177,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"260b1d38cc95d390989c.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/making-dumplings.jpg?");
+
+/***/ }),
+
+/***/ "./src/pierogis.jpg":
+/*!**************************!*\
+  !*** ./src/pierogis.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"36df4eadda0ab8c66925.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/pierogis.jpg?");
+
+/***/ }),
+
+/***/ "./src/ravioli.jpg":
+/*!*************************!*\
+  !*** ./src/ravioli.jpg ***!
+  \*************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"1ef3f18aefe754d71be8.jpg\";\n\n//# sourceURL=webpack://restaurant-page/./src/ravioli.jpg?");
 
 /***/ })
 
