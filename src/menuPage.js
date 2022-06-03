@@ -16,6 +16,7 @@ export default function menuComponent() {
 
     for (let item of menuItems) {
         let itemDiv = document.createElement('div');
+        itemDiv.classList.add('menu-item');
 
         let itemHeader = document.createElement('h2');
         itemHeader.textContent = item.name;

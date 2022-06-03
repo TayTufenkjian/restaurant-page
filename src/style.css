@@ -11,3 +11,7 @@ nav {
 nav .tab {
     cursor: pointer;
 }
+
+.menu-item {
+    margin-bottom: 4rem;
+}

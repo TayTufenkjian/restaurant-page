@@ -10,10 +10,10 @@ export default function homePageComponent() {
     pageSubTitle.textContent = 'Dumplings from around the world';
 
     const description1 = document.createElement('p');
-    description1.textContent = 'Gyoza, pierogies, ravioli &mdash; every food culture has some version of deliciousness wrapped in dough.';
+    description1.textContent = 'Every cuisine has some version of deliciousness wrapped in dough.';
     
     const description2 = document.createElement('p');
-    description2.textContent = 'Here at the International House of Dumplings, we bring them all to you.';
+    description2.textContent = 'At the International House of Dumplings, we bring them all to you.';
 
     const homepageDumplings = new Image();
     homepageDumplings.src = makingDumplings;
