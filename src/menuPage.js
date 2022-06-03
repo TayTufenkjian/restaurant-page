@@ -15,8 +15,6 @@ export default function menuComponent() {
     ]
 
     for (let item of menuItems) {
-        console.log(item.name, item.image);
-
         let itemDiv = document.createElement('div');
 
         let itemHeader = document.createElement('h2');
